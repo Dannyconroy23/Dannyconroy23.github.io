@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*
+
+                          /* HOME HOME HOME HOME HOME  */
+.homeIntroDiv {
+  /* float:left; */
+  text-align: left;
+  background-color:antiquewhite;
+  width:100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+  
+}
+
+.homeIntroDivtext {
+  margin-left: 200px;
+
+}
+
+.homeParagraph {
+  text-align: left;
+  margin-right: 750px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.uglyPic {
+  float:right;
+  margin-top: 50px;
+  margin-right: 200px;
+  height: 425px;
+  width: 300px;
+}
+
+.contact {
+  background-color: darksalmon;
+  background-size:100%;
+  width: 100%;
+  padding-bottom: 150px;
+  float: left;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  
+}
+
+.contactFirst {
+  margin-left: 200px;
+  margin-top: 100px;
+  float: left;
+}
+
+.contactSecond {
+  margin-right:200px; 
+  margin-top: 100px;
+  float: right;
+  
+  
+}
+
+
+.contactBottom {
+  float: left;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-right: 200px;
+  
+}
+
+.bottomHeader {
+  float: left;
+  padding-bottom: 25px;
+  
+}
+.allPics {
+  background-color:antiquewhite;
+  padding-bottom: 25px;
+  border-bottom: 5px solid black;
+}
+
+
+.reactPic{
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+
+
+.csshtmlPic {
+  width: 300px;
+  height:200px;
+  margin-right:270px; 
+  margin-top: 100px;
+  float:right;
+}
+
+.rubyPic {
+  width: 400px;
+  height: 200px;
+  float:right;
+  margin-top: 300px;
+  margin-left: 320px;
+  position:absolute;
+}
+
+ /* ABOUT PAGE ABOUT PAGE ABOUT PAGE */
+
+
+
+.pictureList {
+  margin-top: 50px;
+  
+  width: 100%;
+  float: left;
+  background-color: antiquewhite;
+  padding-top: 500px;
+  padding-left: 128px;
+  z-index: -1;
+  padding-bottom: 50px;
+  
+}
+
+.schoolImages {
+  width: 135px;
+}
+
+.reactCard {
+  margin-left: 1055px;
+  margin-top: 125px;
+  position:absolute;
+  float: right;
+  height: 400px;
+  
+  
+}
+
+.rubyCard {
+  position:absolute;
+  float: right;
+  margin-left: 590px;
+  margin-top: 125px;
+  height: 400px;
+}
+
+.cssCard {
+  position:absolute;
+  margin-top:125px;
+  margin-left: 125px;
+  height: 400px;
+}
+
+.education {
+  position: absolute;
+  margin-top: 850px;
+  background-color: darksalmon;
+  width: 100%;
+  padding-top: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  border-bottom: 5px solid black;
+  z-index: -100;
+}
+
+.hobbies {
+  position: absolute;
+  text-align: left;
+  margin-top: 600px;
+  margin-left: 700px;
+  width:400px
+}
+
+.skills {
+  position:absolute;
+  float:right;
+  text-align: right;
+  margin-top: 870px;
+  margin-left: 975px;
+  width:400px
+  
+}
+
+ /* Navbar Navbar Navbar Navbar */
+.navBar {
+  text-align: right;
+  background-color:antiquewhite;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.navBtn {
+  text-decoration: none ;
+  background-color: indianred;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 9px;
+  margin: 15px;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2), 0 6px 18px 0 rgba(0,0,0,0.19);
+
+}
+
+.navBtn:hover {
+  background-color:darksalmon;
+  border-radius: 8px;
+}
+
+.logo {
+  float: left;
+  margin-left: 55px;
+  height: 40px;
+}
+
+ /* BLOGS BLOGS BLOGS BLOGS BLOGS BLOGS BLOGS BLOGS BLOGS BLOGS BLOGS */
+
+ .allBlogs {
+  background-color:antiquewhite;
+  padding-top: 50px;
+  padding-bottom: 100px;
+ }
+
+ .blog1 {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  padding:25px;
+  background-color:antiquewhite;
+  
+ }
+
+ .blog2 {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  padding:50px;
+  background-color:antiquewhite;
+ }
+
+ .blog3 {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  padding:50px;
+  background-color:antiquewhite;
+ }
+
+
+.about {
+  text-align: center;
+}
+
+/* LINKS LINKS LINKS LINKS LINKS LINKS LINKS LINKS */
+
+.linksPage {
+  margin-top: 50px;
+  padding-top: 25px;
+  background-color: antiquewhite;
+}
+
+
+
+.twitterDiv {
+    display:inline-block;
+    /* border: 3px solid red; */
+    width:200px;
+    height: 180px;
+}
+
+.twitterImg {
+  width:15%;
+  height: 100px;
+  width: 100px;
+}
+
+.linkDiv {
+  display:inline-block;
+  /* border: 3px solid red; */
+  width:200px;
+  height: 180px;
+}
+
+.linkImg {
+width:15%;
+height: 100px;
+width: 100px;
+}
+
+.gitDiv {
+  display:inline-block;
+  width:200px;
+  height: 180px;
+}
+
+.gitImg {
+width:15%;
+height: 100px;
+width: 100px;
+}
+
+.links {
+  text-align: center;
+  
+}
+.timeline {
+  margin-left: 950px;
+}
+
+.demoVid {
+  background-color: antiquewhite;
+  margin-left: 850px;
+  z-index: -1000;
+  
+  
+}
+
+.sinatras {
+  float: left;
+  width: 400px;
+  margin-top: 250px;
+  background-color: antiquewhite;
+}
+.CheckOut{
+  float: left;
+  margin-right: 1000px;
+}
+
+
